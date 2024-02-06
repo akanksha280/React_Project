@@ -1,0 +1,413 @@
+PS C:\Users\hp\Documents\git\React_Project> npm i
+
+
+5 packages are looking for funding
+  run `npm fund` for details
+
+3 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS C:\Users\hp\Documents\git\React_Project> cd reactfirebaseapp
+PS C:\Users\hp\Documents\git\React_Project\reactfirebaseapp> npm i
+
+
+263 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (2 moderate, 6 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS C:\Users\hp\Documents\git\React_Project\reactfirebaseapp> npm i firebase
+
+
+263 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (2 moderate, 6 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS C:\Users\hp\Documents\git\React_Project\reactfirebaseapp> firebase init
+
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\hp\Documents\git\React_Project\reactfirebaseapp
+
+? Are you ready to proceed? Yes
+? Which Firebase features do you want to set up for this directory? Press Space to select features, then Enter 
+to confirm your choices. Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action   
+deploys
+
+=== Project Setup
+
+First, let's associate this project directory with a Firebase project.
+You can create multiple project aliases by running firebase use --add,
+but for now we'll just set up a default project.
+
+? Please select an option: Use an existing project
+? Select a default Firebase project for this directory: react-firebase-app-de032 (react-firebase-app)
+i  Using project react-firebase-app-de032 (react-firebase-app)
+
+=== Hosting Setup
+
+Your public directory is the folder (relative to your project directory) that
+will contain Hosting assets to be uploaded with firebase deploy. If you
+have a build process for your assets, use your build's output directory.
+
+? What do you want to use as your public directory? build
+? Configure as a single-page app (rewrite all urls to /index.html)? Yes
+? Set up automatic builds and deploys with GitHub? Yes
++  Wrote build/index.html
+
+i  Detected a .git folder at C:\Users\hp\Documents\git\React_Project
+i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store.
+
+Visit this URL on this device to log in:
+https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=1009186339&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+
+Waiting for authentication...
+
++  Success! Logged into GitHub as akanksha280
+
+⠴ For which GitHub repository would you like to set up a GitHub workflow? (format: user/repository) user
+
+!  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access?
+
+i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App:
+https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+⠹ For which GitHub repository would you like to set up a GitHub workflow? (format: user/repository) user       
+
+!  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access?
+
+i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App:
+https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+
+? For which GitHub repository would you like to set up a GitHub workflow? (format: user/repository) user       
+PS C:\Users\hp\Documents\git\React_Project\reactfirebaseapp> firebase init 
+
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\hp\Documents\git\React_Project\reactfirebaseapp
+
+? Are you ready to proceed? Yes
+? Which Firebase features do you want to set up for this directory? Press Space to select features, then Enter 
+to confirm your choices. Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action   
+deploys
+
+=== Project Setup
+
+First, let's associate this project directory with a Firebase project.
+You can create multiple project aliases by running firebase use --add, 
+but for now we'll just set up a default project.
+
+? Please select an option: Use an existing project
+? Select a default Firebase project for this directory: react-firebase-app-de032 (react-firebase-app)
+i  Using project react-firebase-app-de032 (react-firebase-app)
+
+=== Hosting Setup
+
+Your public directory is the folder (relative to your project directory) that
+will contain Hosting assets to be uploaded with firebase deploy. If you
+have a build process for your assets, use your build's output directory.
+
+? What do you want to use as your public directory? build
+? Configure as a single-page app (rewrite all urls to /index.html)? Yes
+? Set up automatic builds and deploys with GitHub? No
+? File build/index.html already exists. Overwrite? Yes
++  Wrote build/index.html
+
+i  Writing configuration info to firebase.json...
+i  Writing project information to .firebaserc...
+
++  Firebase initialization complete!
+PS C:\Users\hp\Documents\git\React_Project\reactfirebaseapp> npm run build
+
+> reactfirebaseapp@0.1.0 build
+> react-scripts build
+
+Creating an optimized production build...
+One of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it may break at any time.
+
+babel-preset-react-app is part of the create-react-app project, which
+is not maintianed anymore. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.
+
+Compiled successfully.
+
+File sizes after gzip:
+
+  226.64 kB  build\static\js\main.f41ee6ab.js
+  1.77 kB    build\static\js\592.4a2f3f61.chunk.js
+  523 B      build\static\css\main.8df7d37a.css
+
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  npm install -g serve
+  serve -s build
+
+Find out more about deployment here:
+  https://cra.link/deployment
+
+PS C:\Users\hp\Documents\git\React_Project\reactfirebaseapp> firebase deploy
+
+=== Deploying to 'react-firebase-app-de032'...
+i  deploying hosting
+
+Error: Failed to make request to https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/react-firebase-app-de032/versions
+PS C:\Users\hp\Documents\git\React_Project\reactfirebaseapp> npm install -g firebase-tools
+
+added 65 packages, and changed 575 packages in 6m
+65 packages are looking for funding
+PS C:\Users\hp\Documents\git\React_Project\reactfirebaseapp> firebase deploy
+
+=== Deploying to 'react-firebase-app-de032'...
+
+i  deploying hosting
+
+Error: Failed to make request to https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/react-firebasePS C:\Users\hp\Documents\git\React_Project\reactfirebaseapp> firebase login
+Already logged in as akankshaangel822@gmail.com
+PS C:\Users\hp\Documents\git\React_Project\reactfirebaseapp> firebase deploy
+
+=== Deploying to 'react-firebase-app-de032'...
+
+i  deploying hosting
+
+Error: Failed to make request to https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/react-firebase-app-de032/versions
+PS C:\Users\hp\Documents\git\React_Project\reactfirebaseapp> firebase init --debug
+[2024-02-06T18:13:15.666Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[2024-02-06T18:13:15.673Z] > authorizing via signed-in user (akankshaangel822@gmail.com)
+
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\hp\Documents\git\React_Project\reactfirebaseapp
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+? Are you ready to proceed? Yes
+? Which Firebase features do you want to set up for this directory? Press Space to select features, then Enter 
+to confirm your choices.
+
+Error: Must select at least one feature. Use SPACEBAR to select features, or specify a feature by running firebase init [feature_name]
+PS C:\Users\hp\Documents\git\React_Project\reactfirebaseapp> firebase init --debug
+[2024-02-06T18:14:19.236Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[2024-02-06T18:14:19.242Z] > authorizing via signed-in user (akankshaangel822@gmail.com)
+
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\hp\Documents\git\React_Project\reactfirebaseapp
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+? Are you ready to proceed? Yes
+? Which Firebase features do you want to set up for this directory? Press Space to select features, then Enter 
+to confirm your choices. Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action   
+deploys
+
+=== Project Setup
+
+First, let's associate this project directory with a Firebase project.
+You can create multiple project aliases by running firebase use --add,
+but for now we'll just set up a default project.
+
+[2024-02-06T18:14:43.298Z] Using project from CLI flag: react-firebase-app-de032
+[2024-02-06T18:14:43.317Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/react-firebase-app-de032 [none]
+[2024-02-06T18:14:45.120Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/react-firebase-app-de032 200
+[2024-02-06T18:14:45.121Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/react-firebase-app-de032 {"projectId":"react-firebase-app-de032","projectNumber":"396459585361","displayName":"react-firebase-app","name":"projects/react-firebase-app-de032","resources":{"hostingSite":"react-firebase-app-de032"},"state":"ACTIVE","etag":"1_c382ee58-95d4-4154-839f-0d3b5aacf058"}
+i  Using project react-firebase-app-de032 (react-firebase-app)
+
+=== Hosting Setup
+[2024-02-06T18:14:45.192Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/react-firebase-app-de032 [none]
+[2024-02-06T18:14:45.601Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/react-firebase-app-de032 200
+[2024-02-06T18:14:45.602Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/react-firebase-app-de032 {"projectId":"react-firebase-app-de032","projectNumber":"396459585361","displayName":"react-firebase-app","name":"projects/react-firebase-app-de032","resources":{"hostingSite":"react-firebase-app-de032"},"state":"ACTIVE","etag":"1_c382ee58-95d4-4154-839f-0d3b5aacf058"}
+
+Your public directory is the folder (relative to your project directory) that
+will contain Hosting assets to be uploaded with firebase deploy. If you
+have a build process for your assets, use your build's output directory.
+
+? What do you want to use as your public directory? build
+? Configure as a single-page app (rewrite all urls to /index.html)? Yes
+? Set up automatic builds and deploys with GitHub? No
+[2024-02-06T18:16:39.285Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[2024-02-06T18:16:41.144Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[2024-02-06T18:16:41.145Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.8.0","browserURL":"https://www.gstatic.com/firebasejs/10.8.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.8.0/firebase.tgz"},"live":{"version":"10.8","browserURL":"https://www.gstatic.com/firebasejs/live/10.8/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.8/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.8.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.8.0/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/10.8.0/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/10.8.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.8.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.8.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.8.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.8.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.8.0/firse":"https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.memory.js"}}
+? File build/index.html already exists. Overwrite? Yes
++  Wrote build/index.html
+
+i  Writing configuration info to firebase.json...
+i  Writing project information to .firebaserc...
+
++  Firebase initialization complete!
+PS C:\Users\hp\Documents\git\React_Project\reactfirebaseapp> firebase deploy      
+PS C:\Users\hp\Documents\git\React_Project\reactfirebaseapp> npm run build
+
+> reactfirebaseapp@0.1.0 build
+> react-scripts build
+
+Creating an optimized production build...
+Compiled successfully.
+
+File sizes after gzip:
+
+  232.51 kB (+5.87 kB)  build\static\js\main.b6b4e443.js
+  1.77 kB               build\static\js\592.4a2f3f61.chunk.js
+  523 B                 build\static\css\main.8df7d37a.css
+
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  npm install -g serve
+  serve -s build
+
+Find out more about deployment here:
+
+  https://cra.link/deployment
+
+PS C:\Users\hp\Documents\git\React_Project\reactfirebaseapp> firebase deploy
+
+=== Deploying to 'react-firebase-app-de032'...
+
+i  deploying hosting
+i  hosting[react-firebase-app-de032]: beginning deploy...
++  hosting[react-firebase-app-de032]: file upload complete
+i  hosting[react-firebase-app-de032]: finalizing version...
++  hosting[react-firebase-app-de032]: version finalized
+i  hosting[react-firebase-app-de032]: releasing new version...
++  hosting[react-firebase-app-de032]: release complete
+
++  Deploy complete!
+Project Console: https://console.firebase.google.com/project/react-firebase-app-de032/overview
+Hosting URL: https://react-firebase-app-de032.web.app
+PS C:\Users\hp\Documents\git\React_Project\reactfirebaseapp> npm run build && firebase deploy
+At line:1 char:15
++ npm run build && firebase deploy
++               ~~
+The token '&&' is not a valid statement separator in this version.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : InvalidEndOfLine
+ 
+PS C:\Users\hp\Documents\git\React_Project\reactfirebaseapp> npm run deploy
+
+> reactfirebaseapp@0.1.0 deploy
+> npm run build && firebase deploy
+
+
+> reactfirebaseapp@0.1.0 build
+> react-scripts build
+
+Creating an optimized production build...
+Compiled with warnings.
+
+[eslint] 
+src\Todo.js
+  Line 11:3:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+File sizes after gzip:
+
+  236.64 kB (+4.13 kB)  build\static\js\main.186cc652.js
+  1.77 kB               build\static\js\592.4a2f3f61.chunk.js
+  523 B                 build\static\css\main.8df7d37a.css
+
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  npm install -g serve
+  serve -s build
+
+Find out more about deployment here:
+
+  https://cra.link/deployment
+
+
+=== Deploying to 'react-firebase-app-de032'...
+
+i  deploying hosting
+i  hosting[react-firebase-app-de032]: beginning deploy...
+i  hosting[react-firebase-app-de032]: found 14 files in build
++  hosting[react-firebase-app-de032]: file upload complete
+i  hosting[react-firebase-app-de032]: finalizing version...
++  hosting[react-firebase-app-de032]: version finalized
+i  hosting[react-firebase-app-de032]: releasing new version...
++  hosting[react-firebase-app-de032]: release complete
+
++  Deploy complete!
+
+Project Console: https://console.firebase.google.com/project/react-firebase-app-de032/overview
+Hosting URL: https://react-firebase-app-de032.web.app
+PS C:\Users\hp\Documents\git\React_Project\reactfirebaseapp>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
